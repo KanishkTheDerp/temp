@@ -350,6 +350,10 @@ PRODUCT_PACKAGES += \
     ims-ext-common \
     telephony-ext
 
+# Offmode charging
+ PRODUCT_PACKAGES += \
+     chargeonlymode
+
 PRODUCT_BOOT_JARS += \
     telephony-ext
 
