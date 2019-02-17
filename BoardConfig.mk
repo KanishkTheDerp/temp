@@ -63,9 +63,10 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/zuk/msm8996
 TARGET_KERNEL_CONFIG := statix_defconfig
-TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := /home/kanishk/xtnd/prebuilts/gcc/linux-x86/aarch64/gcc9/bin/aarch64-linux-gnu-
+TARGET_KERNEL_CLANG_PATH := /home/kanishk/xtnd/prebuilts/gcc/linux-x86/aarch64/dtc9/bin
 TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_CLANG_VERSION := 8.0.9
+TARGET_KERNEL_CLANG_VERSION := 9.0
 
 # Webview defs
 #PREBUILT_WEBVIEW_VERSION := chromium
