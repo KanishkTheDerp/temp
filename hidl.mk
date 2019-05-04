@@ -80,8 +80,7 @@ PRODUCT_PACKAGES += \
 # Healthd
 PRODUCT_PACKAGES += \
     android.hardware.health@2.0-impl \
-    android.hardware.health@2.0-service \
-    chargeonlymode
+    android.hardware.health@2.0-service
 
 # Keymaster HAL
 PRODUCT_PACKAGES += \
